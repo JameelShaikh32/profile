@@ -41,17 +41,17 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="about-heading">
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px] flex items-center"
+        className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px] flex items-center about-p"
       >
         <img src={profilepic} width="25%" height="25%" style={{ paddingRight: "50px" }} />
-        Hi there! My name is Jameel Shaikh.<br />
-        I am highly skilled in building responsive websites and web applications using modern front-end technologies such as HTML, CSS, JavaScript, React, Bootstrap and etc. Additionally, I have extensive experience in customizing and developing WordPress websites, allowing clients to have full control over their content management systems.
+        <span>Hi there! My name is Jameel Shaikh.<br />
+          I am highly skilled in building responsive websites and web applications using modern front-end technologies such as HTML, CSS, JavaScript, React, Bootstrap and etc. Additionally, I have extensive experience in customizing and developing WordPress websites, allowing clients to have full control over their content management systems.</span>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

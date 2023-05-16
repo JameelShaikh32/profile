@@ -16,7 +16,7 @@
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
-  display: block;
+  display: none;
 }
 
 .fade-banner-bottom {
@@ -205,5 +205,33 @@
       0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+
+@media screen and (max-width:980px) {
+  .fade-banner-bottom {
+    height: 90vh;
+  }
+
+  .about-heading p {
+    text-align: center;
+  }
+
+  .about-heading h2 {
+    text-align: center;
+  }
+
+  .about-p {
+    display: block;
+    text-align: center;
+  }
+
+  .about-p img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 25px;
   }
 }
