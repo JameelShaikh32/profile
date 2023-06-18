@@ -25,7 +25,7 @@ const Hero = () => {
             I'm a Front-End Web Developer, <br className="sm:block hidden" />
             specialising in building user-friendly, fast-loading websites.
           </p>
-          <a href="https://github.com/JameelShaikh32/profile/blob/main/src/assets/Jameel_Shaikh.pdf" className="cv-btn" download>Download CV</a>
+          <a href="https://shorturl.at/mtTVW" className="cv-btn" download>Download CV</a>
         </div>
       </div>
 
