@@ -137,7 +137,7 @@ const educations = [
   },
   {
     degree: "Bachelor of Science in Computer Science",
-    institute_detail: "South Indian Welfare Society(S.I.W.S), Wadala, INz",
+    institute_detail: "South Indian Welfare Society(S.I.W.S), Wadala, IN",
     icon: siws,
     iconBg: "#f3f3f3",
     date: "Aug 2018 - Apr 2021",
