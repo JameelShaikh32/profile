@@ -113,18 +113,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Jr. Web Developer",
-    company_name: "Ebrandz LLP",
-    icon: ebrandz,
-    iconBg: "#f3f3f3",
-    date: "Sept 2022 - July 2023",
-    points: [
-      "Developing and designing websites on WordPress and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility."
-    ],
-  },
-  {
     title: "PHP Developer",
     company_name: "Ebrandz LLP",
     icon: ebrandz,
@@ -136,6 +124,18 @@ const experiences = [
       "Experience with REST APIs with a basic understanding of object-oriented programming (OOP) design patterns.",
       "Working on all-in-one marketplaces dashboard.",
       "Working experience with JIRA and Bitbucket (as well as the Git code repository, including code-reviewing tools."
+    ],
+  },
+  {
+    title: "Jr. Web Developer",
+    company_name: "Ebrandz LLP",
+    icon: ebrandz,
+    iconBg: "#f3f3f3",
+    date: "Sept 2022 - July 2023",
+    points: [
+      "Developing and designing websites on WordPress and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility."
     ],
   },
 ];
