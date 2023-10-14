@@ -143,6 +143,7 @@ const Contact = () => {
         draggable
         pauseOnHover
         theme="dark"
+        className="reactToast"
       />
     </div>
   );

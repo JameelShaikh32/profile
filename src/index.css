@@ -255,3 +255,7 @@
     top: 80%;
   }
 }
+
+.reactToast {
+  z-index: 100;
+}
