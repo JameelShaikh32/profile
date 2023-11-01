@@ -14,9 +14,9 @@ import {
   ebrandz,
   wordpress,
   frontend,
-  github,
   gnc,
   siws,
+  byteschool,
   resumet,
   kulfi,
   tailor,
@@ -161,34 +161,29 @@ const educations = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
+  {
+    name: "ByteSchool",
+    description:
+      `ByteSchool is the student communities website that provides a one-stop platform for students to learn new skills, network with peers, apply for internships & jobs and grow as an individual. `,
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML/CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: byteschool,
+    source_code_link: "",
+    live_link: "https://www.byteschool.in",
+  },
   {
     name: "Resumet",
     description:
@@ -209,7 +204,7 @@ const projects = [
       },
     ],
     image: resumet,
-    source_code_link: "https://github.com/JameelShaikh32/Resumet",
+    source_code_link: "https://github.com/JameelShaikh32/Resume-Analyzer",
     live_link: "",
   },
   {
@@ -264,4 +259,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, educations, testimonials, projects };
+export { services, technologies, experiences, educations, projects };
