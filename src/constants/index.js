@@ -20,8 +20,7 @@ import {
   byteschool,
   resumet,
   kulfi,
-  tailor,
-  codeigniter,
+  tailor
 } from '../assets';
 
 export const navLinks = [
