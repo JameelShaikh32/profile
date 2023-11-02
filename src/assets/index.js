@@ -18,6 +18,7 @@ import bootstrap from "./tech/bootstrap.png";
 import java from './tech/java.png';
 import mysql from './tech/mysql.png';
 import php from './tech/php.png';
+import codeigniter from './tech/codeigniter.png';
 
 import ebrandz from './company/ebrandz.png';
 
@@ -46,6 +47,7 @@ export {
   threejs,
   ebrandz,
   php,
+  codeigniter,
   java,
   mysql,
   bootstrap,

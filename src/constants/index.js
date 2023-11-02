@@ -11,6 +11,7 @@ import {
   mysql,
   threejs,
   php,
+  codeigniter,
   ebrandz,
   wordpress,
   frontend,
@@ -20,6 +21,7 @@ import {
   resumet,
   kulfi,
   tailor,
+  codeigniter,
 } from '../assets';
 
 export const navLinks = [
@@ -100,6 +102,10 @@ const technologies = [
   {
     name: "php",
     icon: php,
+  },
+  {
+    name: "codeigniter",
+    icon: codeigniter,
   },
   {
     name: "java",
