@@ -49,7 +49,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px] flex items-center about-p"
       >
-        <img src={profilepic} width="30%" height="25%" style={{ paddingRight: "50px" }} />
+        <img src={profilepic} width="100%" height="auto" style={{ paddingRight: "50px" }} />
         <span>Hi there! My name is Jameel Shaikh.<br />
           I am highly skilled in building responsive websites and web applications using modern front-end technologies such as HTML, CSS, JavaScript, React, Bootstrap and etc. Additionally, I have extensive experience in customizing and developing WordPress websites, allowing clients to have full control over their content management systems.</span>
       </motion.p>
