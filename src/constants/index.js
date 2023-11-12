@@ -124,7 +124,7 @@ const experiences = [
     iconBg: "#f3f3f3",
     date: "Aug 2023 - Present",
     points: [
-      "Experience developing REST applications on modern MVC PHP frameworks such as CodeIgniter 4.",
+      "Experience developing REST applications on modern MVC PHP frameworks such as CodeIgniter 4 and Laravel 10.",
       "Experience with system documentation or the ability to help document specialists in developing systems documentation.",
       "Experience with REST APIs with a basic understanding of object-oriented programming (OOP) design patterns.",
       "Working on all-in-one marketplaces dashboard.",
@@ -151,7 +151,7 @@ const educations = [
     institute_detail: "Guru Nanak College of Arts, Science & Commerece, Sion, IN",
     icon: gnc,
     iconBg: "#f3f3f3",
-    date: "Sept 2021 - Present",
+    date: "Sept 2021 - June 2023",
     points: [],
   },
   {

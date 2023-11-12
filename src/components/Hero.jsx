@@ -22,8 +22,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#00cea8]">Jameel</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Front-End Web Developer, <br className="sm:block hidden" />
-            specialising in building user-friendly, fast-loading websites.
+            I'm a Full-Stack Web Developer, <br className="sm:block hidden" />
+            specialising in building user-friendly, fast-loading websites & web-applications.
           </p>
           <a href="https://shorturl.at/mtTVW" className="cv-btn" target="_blank" download>Download CV</a>
         </div>
