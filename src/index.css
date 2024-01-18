@@ -143,6 +143,14 @@
   transform: translateZ(0);
 }
 
+.custom-transition {
+  transition: 0.4s all ease-in-out;
+}
+
+.move-top {
+  top: -400%;
+}
+
 .mobile-nav {
   width: 90%;
   background: #031003 !important;
