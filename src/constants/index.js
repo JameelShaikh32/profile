@@ -168,9 +168,9 @@ const educations = [
 
 const projects = [
   {
-    name: "ByteSchool",
+    name: "BitShala",
     description:
-      `ByteSchool is the student communities website that provides a one-stop platform for students to learn new skills, network with peers, apply for internships & jobs and grow as an individual. `,
+      `BitShala is the student communities website that provides a one-stop platform for students to learn new skills, network with peers, apply for internships & jobs and grow as an individual. `,
     tags: [
       {
         name: "React",
@@ -187,7 +187,7 @@ const projects = [
     ],
     image: byteschool,
     source_code_link: "",
-    live_link: "https://www.byteschool.in",
+    live_link: "https://bitshala.in",
   },
   {
     name: "Resumet",
