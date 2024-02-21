@@ -25,7 +25,7 @@ const Hero = () => {
             I'm a Full-Stack Web Developer, <br className="sm:block hidden" />
             specialising in building user-friendly, fast-loading websites & web-applications.
           </p>
-          <a href="https://shorturl.at/mtTVW" className="cv-btn" target="_blank" download>Download CV</a>
+          <a href="https://drive.google.com/file/d/1qsiOdJtw7NU1YRZafaH489WMmaIOoMaL/view?usp=drivesdk" className="cv-btn" target="_blank" download>Download CV</a>
         </div>
       </div>
 
