@@ -25,7 +25,7 @@ import ebrandz from './company/ebrandz.png';
 import gnc from "./institutes/gnc.png";
 import siws from "./institutes/siws.png";
 
-import byteschool from "./projects/byteschool.jpg";
+import bitshala from "./projects/bitshala.png";
 import resumet from "./projects/resumet.jpg";
 import kulfi from "./projects/kulfi.jpg";
 import tailor from "./projects/tailor.jpg";
@@ -54,7 +54,7 @@ export {
   gnc,
   siws,
   profilepic,
-  byteschool,
+  bitshala,
   resumet,
   kulfi,
   tailor,
