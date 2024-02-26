@@ -17,7 +17,7 @@ import {
   frontend,
   gnc,
   siws,
-  byteschool,
+  bitshala,
   resumet,
   kulfi,
   tailor
@@ -185,7 +185,7 @@ const projects = [
         color: "pink-text-gradient",
       }
     ],
-    image: byteschool,
+    image: bitshala,
     source_code_link: "",
     live_link: "https://bitshala.in",
   },
