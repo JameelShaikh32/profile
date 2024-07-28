@@ -28,7 +28,7 @@ const Home = () => {
             <div className="hero-overlay">
                 <div className="hero-content" data-aos="fade-up">
                     <h1>Jameel Shaikh</h1>
-                    <p>I&apos;m a Full-Stack Web Developer,
+                    <p>I&apos;m a <abbr id='designation'>Full Stack Developer</abbr>,
                         specialising in building user-friendly, fast-loading websites & web-applications.</p>
                 </div>
                 <div className="scroll-down">

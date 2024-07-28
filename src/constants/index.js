@@ -1,4 +1,4 @@
-import { webdevIcon, uiuxIcon, wpdevIcon, logoDesignIcon, ebrandz, gnc, siws, bitshala, kulfi, resumet, tailor } from "../assets";
+import { webdevIcon, uiuxIcon, wpdevIcon, logoDesignIcon, ebrandz, uom, bitshala, kulfi, resumet, tailor } from "../assets";
 
 export const services = [
     {
@@ -55,18 +55,9 @@ export const experiences = [
 export const educations = [
     {
         id: 1,
-        degree: "Master of Science in Information Technology",
-        institute_detail: "Guru Nanak College of Arts, Science & Commerece, Sion, IN",
-        icon: gnc,
-        iconBg: "#f3f3f3",
-        date: "Sept 2021 - June 2023",
-        points: [],
-    },
-    {
-        id: 2,
         degree: "Bachelor of Science in Computer Science",
-        institute_detail: "South Indian Welfare Society(S.I.W.S), Wadala, IN",
-        icon: siws,
+        institute_detail: "University of Mumbai",
+        icon: uom,
         iconBg: "#f3f3f3",
         date: "Aug 2018 - Apr 2021",
         points: [
@@ -80,7 +71,7 @@ export const projects = [
         name: "BitShala",
         description:
             `BitShala is the student communities website that provides a one-stop platform for students to learn new skills, network with peers, apply for internships & jobs and grow as an individual. `,
-        tags: ["react", "html", "css", "javascript", "express", "mongodb"],
+        tags: ["react", "html", "css", "javascript", "next.js", "mongodb"],
         image: bitshala,
         source_code_link: "",
         live_link: "https://bitshala.in",

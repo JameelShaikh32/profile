@@ -55,6 +55,70 @@
     z-index: 1;
 }
 
+#designation {
+    position: relative;
+    color: transparent;
+    width: fit-content;
+    height: fit-content;
+    font-size: clamp(1.1em, 3vw, 1.5rem) !important;
+}
+
+#designation::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    color: var(--primary-color);
+    animation: desigAnimate 2.5s linear infinite;
+}
+
+@keyframes desigAnimate {
+
+    0%,
+    5% {
+        content: "Full Stack Developer";
+    }
+
+    16% {
+        opacity: 0;
+    }
+
+    26% {
+        opacity: 1;
+    }
+
+    33% {
+        content: "UI/UX Designer";
+    }
+
+    46% {
+        opacity: 0;
+    }
+
+    52% {
+        opacity: 1;
+    }
+
+    66% {
+        content: "WordPress Designer";
+    }
+
+    74% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        content: "Full Stack Developer";
+    }
+}
+
 .hero p {
     color: var(--tertiary-color);
     font-size: clamp(1.1em, 3vw, 1.5rem);
