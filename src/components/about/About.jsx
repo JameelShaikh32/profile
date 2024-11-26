@@ -10,10 +10,10 @@ const About = () => {
                     <h1>Empowering the Web with Innovation and Expertise</h1>
                     <p>
                         Hi there! My name is Jameel Shaikh.
-                        I am highly skilled in building responsive websites and web applications using modern technologies such as PHP, Laravel, MySQL, HTML, CSS, JavaScript, React, Bootstrap and etc. Additionally, I have extensive experience in customizing and developing WordPress websites, allowing clients to have full control over their content management systems.
+                        I am highly skilled in building responsive websites and web applications using modern technologies such as PHP, Laravel, MySQL, HTML, CSS, JavaScript, React, Tailwind CSS, Next.js and etc. Additionally, I have extensive experience in customizing and developing WordPress websites, allowing clients to have full control over their content management systems.
                     </p>
                     <div className="social-links-container">
-                        <abbr>My Links <i className="fa-solid fa-arrow-right"></i></abbr>
+                        <abbr>Social Links <i className="fa-solid fa-arrow-right"></i></abbr>
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/dev-jameel/" target="_blank" rel="noopener noreferrer">
                                 <i className="fa-brands fa-linkedin"></i>
@@ -32,7 +32,7 @@ const About = () => {
                 </div>
                 <Cube />
             </div>
-            <div className="skills">
+            {/* <div className="skills">
                 <div><i className="fa-brands fa-html5"></i><h4>HTML</h4></div>
                 <div><i className="fa-brands fa-css3-alt"></i><h4>CSS</h4></div>
                 <div><i className="fa-brands fa-js-square"></i><h4>JavaScript</h4></div>
@@ -46,7 +46,7 @@ const About = () => {
                 <div><i className="fa-brands fa-envira"></i><h4>MongoDB</h4></div>
                 <div><i className="fa-solid fa-database"></i><h4>MySQL</h4></div>
                 <div><i className="fa-brands fa-wordpress"></i><h4>WordPress</h4></div>
-            </div>
+            </div> */}
         </div>
     );
 };

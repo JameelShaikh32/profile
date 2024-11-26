@@ -13,6 +13,7 @@ import Experience from './components/experience/Experience';
 import Projects from './components/projects/Projects';
 import Divider from './components/divider/Divider';
 import Contact from './components/contact/Contact';
+import Skills from './components/skills/Skills';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Home />
       <div id='about'>
         <About />
+        <Skills />
       </div>
       <Divider />
       <div id='services'>

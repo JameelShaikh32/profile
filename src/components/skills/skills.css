@@ -1,0 +1,31 @@
+.skills-container {
+    width: 100%;
+    max-width: 1440px;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    background: var(--secondary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.skills-container abbr {
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .skills-container {
+        padding: 50px 30px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .skills-container {
+        padding: 30px 30px;
+        height: auto;
+    }
+}
