@@ -1,4 +1,4 @@
-import { webdevIcon, uiuxIcon, wpdevIcon, logoDesignIcon, ebrandz, uom, bitshala, kulfi, resumet, tailor } from "../assets";
+import { webdevIcon, uiuxIcon, wpdevIcon, logoDesignIcon, ebrandz, uom, bitshala, pawfriend, kulfi, resumet, tailor } from "../assets";
 
 export const services = [
     {
@@ -67,6 +67,15 @@ export const educations = [
 ];
 
 export const projects = [
+    {
+        name: "Pawfriend",
+        description:
+            `PawFriend.in, founded by Akshay Ridlan, is a cutting-edge technology that leverages QR codes to enhance pet safety and provide reassurance for pet owners. `,
+        tags: ["nextjs", "html", "css", "typescript", "tailwindcss", "react", "mongodb"],
+        image: pawfriend,
+        source_code_link: "",
+        live_link: "https://pawfriend.in",
+    },
     {
         name: "BitShala",
         description:

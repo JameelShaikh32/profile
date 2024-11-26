@@ -10,10 +10,11 @@ import ebrandz from './logos/ebrandz.png';
 import uom from './logos/uom.png';
 
 import bitshala from './images/bitshala.png';
+import pawfriend from './images/pawfriend.png';
 import kulfi from './images/kulfi.jpg';
 import tailor from './images/tailor.jpg';
 import resumet from './images/resumet.jpg';
 
 import myResume from './resume.pdf';
 
-export { logo, bgvideo, webdevIcon, uiuxIcon, wpdevIcon, logoDesignIcon, ebrandz, uom, bitshala, kulfi, tailor, resumet, myResume };
+export { logo, bgvideo, webdevIcon, uiuxIcon, wpdevIcon, logoDesignIcon, ebrandz, uom, bitshala, pawfriend, kulfi, tailor, resumet, myResume };
