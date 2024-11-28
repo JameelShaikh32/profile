@@ -54,6 +54,7 @@ const AppContainer = styled.div`
     align-items: center;
     justify-content: center;
     padding: 30px 60px;
+    overflow: hidden;
 `;
 
 const Wrapper = styled.div`
