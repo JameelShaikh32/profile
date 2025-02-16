@@ -29,7 +29,7 @@ export const experiences = [
         iconBg: "#f3f3f3",
         date: "Oct 2024 - Present",
         points: [
-            "Experience with GraphQL API integration, AWS (S3, SNS, SQS, Lambda Functions).",
+            "Experience with GraphQL API integration, AWS (S3, SNS, SQS, Lambda Functions, etc.).",
             "Experience with web performance optimization techniques and security best practices.",
         ],
     },
