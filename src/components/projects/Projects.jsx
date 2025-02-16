@@ -28,7 +28,7 @@ const Projects = () => {
                             <div className="tags">
                                 {project.tags.map((tag, index) => (
                                     <p key={`tag-${index}`} className="tag">
-                                        #{tag}
+                                        {tag.toLowerCase().includes('more') ? tag : `#${tag}`}
                                     </p>
                                 ))}
                             </div>

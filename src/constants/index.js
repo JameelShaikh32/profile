@@ -1,4 +1,4 @@
-import { webdevIcon, uiuxIcon, wpdevIcon, logoDesignIcon, ebrandz, uom, bitshala, pawfriend, kulfi, resumet, tailor } from "../assets";
+import { webdevIcon, uiuxIcon, wpdevIcon, logoDesignIcon, ebrandz, uom, bitshala, pawfriend, kulfi, resumet, tailor, unisellergy, projectchetna } from "../assets";
 
 export const services = [
     {
@@ -22,22 +22,36 @@ export const services = [
 export const experiences = [
     {
         id: 1,
+        title: "Senior Software Developer",
+        company_name: "Ebrandz LLP",
+        location: "Mumbai, Maharashtra, IN",
+        icon: ebrandz,
+        iconBg: "#f3f3f3",
+        date: "Oct 2024 - Present",
+        points: [
+            "Experience with GraphQL API integration, AWS (S3, SNS, SQS, Lambda Functions).",
+            "Experience with web performance optimization techniques and security best practices.",
+        ],
+    },
+    {
+        id: 2,
         title: "PHP Developer",
         company_name: "Ebrandz LLP",
         location: "Mumbai, Maharashtra, IN",
         icon: ebrandz,
         iconBg: "#f3f3f3",
-        date: "Aug 2023 - Present",
+        date: "Aug 2023 - Oct 2024",
         points: [
+            "Experience with integrations like Shopify, Flipkart, and Amazon.",
             "Experience developing REST applications on modern MVC PHP frameworks such as CodeIgniter 4 and Laravel 10.",
             "Experience with system documentation or the ability to help document specialists in developing systems documentation.",
             "Experience with REST APIs with a basic understanding of object-oriented programming (OOP) design patterns.",
             "Working on all-in-one marketplaces dashboard.",
-            "Working experience with JIRA and Bitbucket (as well as the Git code repository, including code-reviewing tools."
+            "Working experience with Bitbucket (as well as the Git code repository, including code-reviewing tools."
         ],
     },
     {
-        id: 2,
+        id: 3,
         title: "Jr. Web Developer",
         company_name: "Ebrandz LLP",
         location: "Mumbai, Maharashtra, IN",
@@ -67,6 +81,24 @@ export const educations = [
 ];
 
 export const projects = [
+    {
+        name: "Unisellergy",
+        description:
+            `Unisellergy is a powerful e-commerce solution that integrates all sales channels, offering a comprehensive builder and courier system for managing inventory and shipments from a single dashboard.`,
+        tags: ["php", "laravel", "angular", "scss", "typescript", "mysql", "redis", "aws", "graphql", "& more.."],
+        image: unisellergy,
+        source_code_link: "",
+        live_link: "https://unisellergy.in",
+    },
+    {
+        name: "ProjectChetna",
+        description:
+            `Project Chetna is a caring initiative in India dedicated to helping millions of people affected by Dementia and Alzheimer's disease.`,
+        tags: ["nextjs", "html", "css", "typescript", "tailwindcss", "react", "mongodb"],
+        image: projectchetna,
+        source_code_link: "",
+        live_link: "https://projectchetna.in",
+    },
     {
         name: "Pawfriend",
         description:

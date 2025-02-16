@@ -114,15 +114,16 @@
     content: '\f178';
     font-family: 'FontAwesome';
     position: absolute;
+    top: 14%;
     right: -20%;
     font-size: 16px;
     color: var(--primary-color);
     opacity: 0;
-    transition: opacity 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .project-link:hover::before {
-    right: -25%;
+    right: -30%;
     opacity: 1;
 }
 
