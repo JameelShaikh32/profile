@@ -84,7 +84,7 @@ export const projects = [
     {
         name: "Unisellergy",
         description:
-            `Unisellergy is a powerful e-commerce solution that integrates all sales channels, offering a comprehensive builder and courier system for managing inventory and shipments from a single dashboard.`,
+            "Unisellergy is a powerful e-commerce solution that integrates all sales channels, offering a comprehensive builder and courier system for managing inventory and shipments from a single dashboard.",
         tags: ["php", "laravel", "angular", "scss", "typescript", "mysql", "redis", "aws", "graphql", "& more.."],
         image: unisellergy,
         source_code_link: "",
@@ -93,7 +93,7 @@ export const projects = [
     {
         name: "ProjectChetna",
         description:
-            `Project Chetna is a caring initiative in India dedicated to helping millions of people affected by Dementia and Alzheimer's disease.`,
+            "Project Chetna is a caring initiative in India dedicated to helping millions of people affected by Dementia and Alzheimer's disease.",
         tags: ["nextjs", "html", "css", "typescript", "tailwindcss", "react", "mongodb"],
         image: projectchetna,
         source_code_link: "",
@@ -102,7 +102,7 @@ export const projects = [
     {
         name: "Pawfriend",
         description:
-            `PawFriend.in, founded by Akshay Ridlan, is a cutting-edge technology that leverages QR codes to enhance pet safety and provide reassurance for pet owners. `,
+            "PawFriend.in, founded by Akshay Ridlan, is a cutting-edge technology that leverages QR codes to enhance pet safety and provide reassurance for pet owners. ",
         tags: ["nextjs", "html", "css", "typescript", "tailwindcss", "react", "mongodb"],
         image: pawfriend,
         source_code_link: "",
@@ -111,7 +111,7 @@ export const projects = [
     {
         name: "BitShala",
         description:
-            `BitShala is the student communities website that provides a one-stop platform for students to learn new skills, network with peers, apply for internships & jobs and grow as an individual. `,
+            "BitShala is the student communities website that provides a one-stop platform for students to learn new skills, network with peers, apply for internships & jobs and grow as an individual. ",
         tags: ["react", "html", "css", "javascript", "next.js", "mongodb"],
         image: bitshala,
         source_code_link: "",
