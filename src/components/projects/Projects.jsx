@@ -15,6 +15,7 @@ const Projects = () => {
                         <div className="project-content">
                             <h3>{project.name}</h3>
                             <p>{project.description}</p>
+                            <p>{project.role}</p>
                             {project.source_code_link && (
                                 <a href={project.source_code_link} target="_blank" rel="noopener noreferrer" className='project-link'>
                                     <abbr>Source Code</abbr>

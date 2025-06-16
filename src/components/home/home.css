@@ -24,7 +24,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background: linear-gradient(to top, rgba(05, 05, 05, 0.95), rgba(05, 05, 05, 0.75));
+    background: linear-gradient(to top, rgba(05, 05, 05, 1), rgba(05, 05, 05, 0.85));
     padding: 50px 30px;
     z-index: 2;
 }
@@ -47,7 +47,7 @@
 .hero h1 {
     position: relative;
     font-family: HeadingFont, sans-serif;
-    font-size: clamp(3.5rem, 9vw, 8rem);
+    font-size: clamp(3.5rem, 9vw, 12rem);
     font-weight: 600;
     color: #fff;
     letter-spacing: 8px;
@@ -57,71 +57,16 @@
 
 #designation {
     position: relative;
-    color: transparent;
+    color: var(--primary-color);
     width: fit-content;
     height: fit-content;
     font-size: clamp(1.1em, 3vw, 1.5rem) !important;
-}
-
-#designation::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    color: var(--primary-color);
-    animation: desigAnimate 3s linear infinite;
-}
-
-@keyframes desigAnimate {
-
-    0%,
-    5% {
-        content: "Full Stack Developer";
-    }
-
-    16% {
-        opacity: 0;
-    }
-
-    26% {
-        opacity: 1;
-    }
-
-    33% {
-        content: "UI/UX Designer";
-    }
-
-    46% {
-        opacity: 0;
-    }
-
-    52% {
-        opacity: 1;
-    }
-
-    66% {
-        content: "WordPress Designer";
-    }
-
-    74% {
-        opacity: 0;
-    }
-
-    90% {
-        opacity: 1;
-    }
-
-    100% {
-        content: "Full Stack Developer";
-    }
+    animation: typing 2s steps(20, end), blink-caret 0.75s step-end infinite;
 }
 
 .hero p {
     color: var(--tertiary-color);
-    font-size: clamp(1.1em, 3vw, 1.5rem);
+    font-size: clamp(1.1em, 4vw, 1.4rem);
     max-width: 600px;
     line-height: 1.5em;
 }
@@ -170,6 +115,24 @@
     box-shadow: 0 0 30px var(--primary-color), 0 0 30px var(--primary-color);
 }
 
+@media screen and (min-width: 1920px) {
+    .hero p {
+        width: 100%;
+        max-width: 850px;
+        font-size: clamp(1.1em, 4vw, 1.8rem);
+    }
+
+    .scroll-down-link span {
+        width: 30px;
+        height: 45px;
+    }
+
+    .scroll-down-link span::before {
+        width: 4px;
+        height: 14px;
+    }
+}
+
 @keyframes scrollDownAnimation {
     0% {
         transform: translateY(0);
@@ -183,6 +146,12 @@
         transform: translateY(0);
     }
 }
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
 
 @media screen and (max-width: 1024px) {
 

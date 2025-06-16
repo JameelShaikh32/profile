@@ -26,7 +26,7 @@
 .services-list {
     position: relative;
     width: 100%;
-    max-width: 1360px;
+    max-width: 1440px;
     padding: 25px 50px;
     display: flex;
     justify-content: center;
@@ -51,6 +51,26 @@
     transition: 0.3s all ease-in-out;
     z-index: 1;
     overflow: hidden;
+}
+
+@media screen and (min-width: 1920px) {
+    .service-container {
+        max-width: 1600px;
+    }
+
+    .services-list {
+        max-width: 1600px;
+        gap: 80px;
+    }
+
+    .service-content {
+        max-width: 1080px;
+    }
+
+    .service-card {
+        max-width: 280px;
+        transform: scale(1.2);
+    }
 }
 
 .service-card::before {
@@ -109,6 +129,12 @@
 
 .service-card:hover {
     box-shadow: 0 0 200px #23273150;
+}
+
+@media screen and (min-width: 1920px) {
+    .service-content p {
+        font-size: clamp(1em, 3vw, 1.3em);
+    }
 }
 
 @media screen and (max-width: 1024px) {
