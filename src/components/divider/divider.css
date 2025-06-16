@@ -37,9 +37,33 @@
     color: #000;
     white-space: nowrap;
     padding: 4px 0;
+    overflow: hidden;
+}
+
+.marquee-inner {
+    display: flex;
+    width: 200%;
+    animation: marquee-flex 20s linear infinite;
+}
+
+.marquee-group {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+@keyframes marquee-flex {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 .divider .divider-line .divider-titles {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    display: inline-block;
+    padding: 0 20px;
 }

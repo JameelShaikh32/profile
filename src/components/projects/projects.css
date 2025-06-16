@@ -1,7 +1,6 @@
 .projects-container {
     position: relative;
     width: 100%;
-    max-width: 1440px;
     height: auto;
     padding: 50px 60px;
     display: flex;
@@ -27,8 +26,8 @@
 .project-card {
     position: relative;
     width: 100%;
-    max-width: 380px;
-    height: 280px;
+    max-width: 500px;
+    height: 300px;
     cursor: pointer;
     border-radius: 16px;
     box-shadow: 0 0 50px rgba(36, 36, 36, 0.7);
@@ -125,6 +124,25 @@
 .project-link:hover::before {
     right: -30%;
     opacity: 1;
+}
+
+@media screen and (min-width: 1920px) {
+    .project-card {
+        max-width: 480px;
+        height: 320px;
+    }
+
+    .project-content p {
+        font-size: 1.1em;
+    }
+
+    .project-card abbr {
+        font-size: 1.1em;
+    }
+
+    .tag {
+        font-size: 0.9em !important;
+    }
 }
 
 @media screen and (max-width: 1024px) {

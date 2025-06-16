@@ -29,6 +29,28 @@
     font-size: clamp(1em, 4vw, 1.2em) !important;
 }
 
+@media screen and (min-width: 1920px) {
+    .points {
+        font-size: 1.1em !important;
+    }
+
+    .vertical-timeline-element-title {
+        font-size: 1.4em !important;
+    }
+
+    .vertical-timeline-element-subtitle {
+        font-size: 1.1em !important;
+    }
+
+    .timeline-date {
+        font-size: clamp(1em, 4vw, 1.4em) !important;
+    }
+
+    .timeline-icon {
+        width: 100px !important;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .experiences-container {
         padding: 20px;

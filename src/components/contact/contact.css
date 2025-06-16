@@ -69,3 +69,17 @@
 /* .contact-container .divider .divider-line h2 {
     font-size: 14px !important;
 } */
+
+@media screen and (min-width: 1920px) {
+    .contact-content p {
+        font-size: 1.2em;
+    }
+
+    .contact-content h4 {
+        font-size: 1.2em;
+    }
+
+    .copyrights p {
+        font-size: 1em;
+    }
+}
