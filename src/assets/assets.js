@@ -152,7 +152,7 @@ export const infoList = [
     {
         icon: <BriefcaseBusiness className='w-8 text-gray-700 dark:text-white' />,
         title: 'Projects',
-        description: 'Built more than 5 projects'
+        description: 'Built more than 4 projects'
     }
 ];
 
