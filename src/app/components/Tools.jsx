@@ -42,9 +42,9 @@ const Tools = ({ isDarkMode }) => {
                             ? (tool.title.includes('Github') || tool.title.includes('AWS')
                                 ? tool.iconDark : tool.icon)
                             : tool.icon} alt={tool.title}
-                            className="w-5 sm:w-7"
+                            className={`${tool.title.includes('Cursor AI IDE') ? 'dark:invert' : ''} w-5 sm:w-7`}
                         />
-                        {/* <p className="text-sm text-gray-600 dark:text-white/80 leading-5">{tool.title}</p> */}
+                        <p className="text-sm text-gray-600 dark:text-white/80 leading-5">{tool.title}</p>
                     </motion.li>
                 ))}
             </motion.ul>
