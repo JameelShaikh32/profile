@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio – Jameel Shaikh
 
-## Getting Started
+Welcome to **Jameel Shaikh's portfolio website**. This is a Next.js-powered personal site showcasing full stack web development and UI/UX skills.
 
-First, run the development server:
+## 🚀 Getting Started
+
+To start the development server:
 
 ```bash
 npm run dev
@@ -14,23 +16,39 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Edit the homepage by modifying `app/page.tsx`. Changes will auto-update as you save.
 
-## Learn More
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to optimize and load custom fonts.
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 About the Developer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Jameel Shaikh**  
+Full Stack Web Developer specializing in modern web technologies like PHP, Laravel, HTML, CSS, JavaScript, React, and WordPress.[9][10]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Building responsive sites & web apps
+- Passion for transforming ideas into digital solutions
+- Experience in scalable, clean code development
 
-## Deploy on Vercel
+## 🌟 Website Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Interactive portfolio & project showcases
+- Detailed skill set & technologies (PHP, Laravel, React, etc.)
+- Contact details & social media links
+- Responsive design for all devices
+- UI/UX portfolio highlights
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs) – Deep dive into Next.js features and APIs.
+- [Learn Next.js](https://nextjs.org/learn) – Interactive tutorials for beginners and advanced users.
+
+## 🚀 Deploy on Vercel
+
+Deploy easily via [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) for best performance.
+
+For deployment details, see [Next.js Deployment Docs](https://nextjs.org/docs/app/building-your-application/deploying).
+
+---
