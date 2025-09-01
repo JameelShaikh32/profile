@@ -2,9 +2,12 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jameelshaikh32.github.io/profile",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
+    "export": "next export",
+    "deploy": "gh-pages -d out --dotfiles",
     "start": "next start",
     "lint": "eslint"
   },
