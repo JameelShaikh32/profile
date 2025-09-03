@@ -39,11 +39,36 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
                 </a>
 
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScrolled ? '' : 'bg-white shadow-sm bg-opacity-50 dark:border dar:border-white/50 dark:bg-transparent'}`}>
-                    <li><a className='font-ovo' href="#top">Home</a></li>
-                    <li><a className='font-ovo' href="#about">About</a></li>
-                    <li><a className='font-ovo' href="#services">Services</a></li>
-                    <li><a className='font-ovo' href="#work">Work</a></li>
-                    <li><a className='font-ovo' href="#contact">Contact</a></li>
+                    <li>
+                        <a className='font-ovo relative group' href="#top">
+                            Home
+                            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 dark:bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className='font-ovo relative group' href="#about">
+                            About
+                            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 dark:bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className='font-ovo relative group' href="#services">
+                            Services
+                            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 dark:bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className='font-ovo relative group' href="#work">
+                            Work
+                            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 dark:bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className='font-ovo relative group' href="#contact">
+                            Contact
+                            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 dark:bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
                 </ul>
 
                 <div className='flex items-center gap-4'>
@@ -63,16 +88,41 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
 
                 {/* Mobile Menu */}
                 <ul ref={sideMenuRef} className='flex md:hidden flex-col items-center gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 dark:bg-darkHover dark:text-white'>
-
+                    <div className='absolute top-6 right-6 cursor-pointer' onClick={closeMenu}></div>
                     <div className='absolute top-6 right-6 cursor-pointer' onClick={closeMenu}>
                         <Image src={isDarkMode ? assets.close_white : assets.close_black} alt="close icon" className='w-5 cursor-pointer' onClick={closeMenu} />
                     </div>
 
-                    <li><a className='font-ovo' href="#top" onClick={closeMenu}>Home</a></li>
-                    <li><a className='font-ovo' href="#about" onClick={closeMenu}>About</a></li>
-                    <li><a className='font-ovo' href="#services" onClick={closeMenu}>Services</a></li>
-                    <li><a className='font-ovo' href="#work" onClick={closeMenu}>Work</a></li>
-                    <li><a className='font-ovo' href="#contact" onClick={closeMenu}>Contact</a></li>
+                    <li>
+                        <a className='text-lg font-ovo relative group' href="#top" onClick={closeMenu}>
+                            Home
+                            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 dark:bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className='text-lg font-ovo relative group' href="#about" onClick={closeMenu}>
+                            About
+                            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 dark:bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className='text-lg font-ovo relative group' href="#services" onClick={closeMenu}>
+                            Services
+                            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 dark:bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className='text-lg font-ovo relative group' href="#work" onClick={closeMenu}>
+                            Work
+                            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 dark:bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className='text-lg font-ovo relative group' href="#contact" onClick={closeMenu}>
+                            Contact
+                            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 dark:bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </>

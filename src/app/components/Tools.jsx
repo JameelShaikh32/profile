@@ -15,7 +15,7 @@ const Tools = ({ isDarkMode }) => {
                 transition={{ duration: 0.5, delay: 0.3 }}
             >Tech Stack</motion.h4>
 
-            <motion.h2 className='text-center text-5xl font-ovo'
+            <motion.h2 className='text-center text-5xl font-ovo leading-snug'
                 initial={{ y: -20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
@@ -31,7 +31,7 @@ const Tools = ({ isDarkMode }) => {
             <motion.ul className="flex flex-wrap justify-center gap-6"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.6, delay: 1.5 }}
+                transition={{ duration: 0.6, delay: 0.8 }}
             >
                 {toolsData.map((tool, index) => (
                     <motion.li key={index}

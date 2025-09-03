@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react'
 import { motion } from 'motion/react'
 import { serviceData } from '../../assets/assets'
 
-const Services = ({ isDarkMode }) => {
+const Services = () => {
     return (
         <motion.div id='services' className='w-full px-[12%] py-10 scroll-mt-40'
             initial={{ opacity: 0 }}
@@ -15,7 +15,7 @@ const Services = ({ isDarkMode }) => {
                 transition={{ duration: 0.5, delay: 0.3 }}
             >What I Offer</motion.h4>
 
-            <motion.h2 className='text-center text-5xl font-ovo'
+            <motion.h2 className='text-center text-5xl font-ovo leading-snug'
                 initial={{ y: -20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}

@@ -2,7 +2,7 @@ import { motion } from "motion/react"
 import Image from "next/image"
 import { assets, infoList } from "../../assets/assets"
 
-const About = ({ isDarkMode }) => {
+const About = () => {
     return (
         <motion.div id='about' className='w-full px-[12%] py-10 scroll-mt-20'
             initial={{ opacity: 0 }}
@@ -20,7 +20,7 @@ const About = ({ isDarkMode }) => {
                 transition={{ duration: 0.5, delay: 0.5 }}
             >About Me</motion.h2>
 
-            <motion.div className="w-full flex flex-col lg:flex-row items-center gap-20 my-20"
+            <motion.div className="w-full max-w-7xl flex flex-col lg:flex-row items-center justify-center mx-auto gap-20 my-20"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8 }}
@@ -33,7 +33,7 @@ const About = ({ isDarkMode }) => {
                     <Image src={assets.user_image} alt="profile image" className='rounded-3xl w-full' />
                 </motion.div>
 
-                <motion.div className="flex-1"
+                <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.6, delay: 0.8 }}

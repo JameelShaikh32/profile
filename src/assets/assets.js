@@ -84,29 +84,35 @@ export const assets = {
     cursor_ai
 };
 
+// Import project images at the top of the file
+import work1 from './projects/work-1.png';
+import work2 from './projects/work-2.png';
+import work3 from './projects/work-3.png';
+import work4 from './projects/work-4.png';
+
 export const workData = [
     {
         title: 'AiVista Analytics',
         description: 'Web Development, UI/UX Design',
-        bgImage: '/work-1.png',
+        bgImage: work1,
         link: 'https://aivistaanalytics.com/'
     },
     {
         title: 'Unisellergy',
         description: 'Backend Development',
-        bgImage: '/work-2.png',
+        bgImage: work2,
         link: 'https://unisellergy.in/'
     },
     {
         title: 'Pawfriend',
         description: 'Web Development, UI/UX Design',
-        bgImage: '/work-3.png',
+        bgImage: work3,
         link: 'https://pawfriend.in/'
     },
     {
         title: 'ProjectChetna',
         description: 'Web Development, UI/UX Design',
-        bgImage: '/work-4.png',
+        bgImage: work4,
         link: 'https://projectchetna.in/'
     },
 ]
